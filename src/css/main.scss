@@ -1,9 +1,10 @@
 /* variables */
-$font-family: 'Source Sans Pro', sans-serif;
+$font-family: 'Source Sans Pro', 'PingFang TC', 'Heiti TC', 'Microsoft YaHei', sans-serif;
 $bg-color: #eeeeee;
 $footer-color: #31383C;
 $footer-font-color: #eeeeee;
 $hr-color: #e5e5e5;
+
 
 /* global styles */
 html, body {
@@ -40,6 +41,16 @@ hr {
     background-size: cover;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, .5);
 
+}
+
+.social-icon-section {
+    margin-top: 1.6rem;
+    margin-left: 3.8rem;
+
+    .fa:nth-child(2) { color: #fff; }
+    .color-mail { color: #ff0082 }
+    .color-linkedin { color: #0071b0; }
+    .color-github { color: #201f1f; }
 }
 
 .info-item {

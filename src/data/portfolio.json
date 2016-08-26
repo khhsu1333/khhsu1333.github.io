@@ -15,7 +15,7 @@
         "name": "PTT Search Engine",
         "date": "Sep 2015",
         "image": "img/ptt/logo.png",
-        "description": "A vertical search engine based on the data crawled by PTT crawler from PTT."
+        "description": "A vertical search engine based on the data crawled by PTT crawler, which is another project of mine. This website is built with Python, Tornado and Bootstrap. The search engine has used several text mining techniques, such as TD-IDF and indexing."
     },
     {
         "name": "Cloud Video",
@@ -39,12 +39,12 @@
         "name": "Portalite",
         "date": "Feb 2014",
         "image": "img/portalite/logo.png",
-        "description": "An Android app for the learning management system of YZU."
+        "description": "An Android app for the learning management system of YZU. It provides a elegant UI and off-line browsing."
     },
     {
         "name": "Fakebook",
         "date": "Aug 2012",
         "image": "img/fakebook/logo.png",
-        "description": "A facebook-like website for practice."
+        "description": "A facebook-like website for practice. This website is built with PHP."
     }
 ]
