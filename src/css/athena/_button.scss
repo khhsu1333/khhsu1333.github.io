@@ -1,0 +1,41 @@
+/* variables */
+$color-grey: #7f8c97;
+
+/* base styles */
+.btn.active {
+    box-shadow: none;
+}
+
+/* hover-button */
+.btn-hover {
+    padding: 0.6rem 1.2rem;
+    font-weight: 700;
+    background: none;
+    outline: none !important;
+    border-radius: 0;
+    border-width: 0.2rem;
+    transition: all 0.2s ease-out;
+
+    &:active {
+        box-shadow: none;
+    }
+}
+
+/* themes */
+.btn-hover-grey {
+    color: $color-grey;
+    border-color: $color-grey;
+
+    &:hover {
+        color: #fff;
+        background: $color-grey;
+    }
+
+    &:focus {
+        color: $color-grey;
+    }
+
+    &:focus:hover {
+        color: #ffffff;
+    }
+}

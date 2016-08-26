@@ -1,0 +1,50 @@
+[
+    {
+        "name": "ISMP Website",
+        "date": "May 2016",
+        "image": "img/ismp/logo.png",
+        "description": "The homepage of Intelligent System/Media Processing Lab.",
+        "media": [
+            {
+                "title": "Website Link",
+                "link": "http://ismp.csie.ncku.edu.tw/"
+            }
+        ]
+    },
+    {
+        "name": "PTT Search Engine",
+        "date": "Sep 2015",
+        "image": "img/ptt/logo.png",
+        "description": "A vertical search engine based on the data crawled by PTT crawler from PTT."
+    },
+    {
+        "name": "Cloud Video",
+        "date": "July 2014 - Jan 2015",
+        "image": "img/video/logo.png",
+        "description": "A cloud video surveillance system based on Hadoop HDFS."
+    },
+    {
+        "name": "Fit Maniac",
+        "date": "Aug 2014",
+        "image": "img/fitmaniac/logo.png",
+        "description": "A fitness app offering weight training and dieting programs designed by professional fitness trainers.",
+        "media": [
+            {
+                "title": "Google Play",
+                "link": "https://play.google.com/store/apps/details?id=com.fitmaniac.android"
+            }
+        ]
+    },
+    {
+        "name": "Portalite",
+        "date": "Feb 2014",
+        "image": "img/portalite/logo.png",
+        "description": "An Android app for the learning management system of YZU."
+    },
+    {
+        "name": "Fakebook",
+        "date": "Aug 2012",
+        "image": "img/fakebook/logo.png",
+        "description": "A facebook-like website for practice."
+    }
+]

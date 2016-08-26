@@ -1,0 +1,130 @@
+/* variables */
+/*
+$color: #525e64;
+$color-active: #32c5d2;
+$tab-color: #2f353b;
+$tab-font-color: #fff;*/
+
+$color: #525e64;
+$color-active: #32c5d2;
+$tab-bg-color: #ffffff;
+$tab-font-color: #000;
+
+$color-2: #ee6557;
+$link-color:  #5b5b5b;
+$link-underscore: #48bed5;
+$link-hover-color: #48bed5;
+
+
+/* ul */
+.icon-stack {
+    text-align: center;
+    font-weight: 900;
+
+    /* font awesome icon */
+    .fa {
+        display: inline-block;
+        color: $color;
+    }
+
+    .title {
+        display: block;
+        margin: 0.5rem 0;
+        color: $color;
+    }
+
+    li {
+        position: relative;
+        display: inline-block;
+        margin-left: 1rem;
+
+        a {
+            position: relative;
+            display: block;
+            padding: 1rem 1.2rem;
+        }
+        a:hover {background-color: transparent;}
+        a:focus {background-color: transparent;}
+    }
+
+    li.active {
+        a {
+            .fa {color: $color-active;}
+            .title {color: $color-active;}
+        }
+        a:hover {
+            .fa {color: $color-active;}
+            .title {color: $color-active;}
+        }
+    }
+
+    li.active:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+        border-width: 12px;
+        border-style: solid;
+        border-color: transparent transparent $tab-bg-color transparent;
+        display: block;
+        width: 0;
+    }
+}
+
+/* ul */
+.icon-stack-2 {
+    text-align: center;
+    font-weight: 300;
+
+    .fa {
+        display: inline-block;
+        color: $color-2;
+    }
+
+    .fa-inverse {
+        color: #ffffff;
+    }
+
+    li {
+        position: relative;
+        display: inline-block;
+        margin-left: 2rem;
+
+        a {
+            position: relative;
+            display: block;
+            padding: 1rem 1.2rem;
+
+            h4 { color: $link-color; }
+            p { color: #000; }
+            .pseudo-link { border-bottom: 0.01rem solid $link-underscore; }
+            i.pulse {
+                display: block;
+                width: 8rem;
+                height: 8rem;
+                border-radius: 1000px;
+                border: 0.1rem solid $color-2;
+                transition: all 0.2s ease-out;
+                transform: scale(0.8);
+            }
+        }
+
+        a:hover, a:focus {
+            background-color: transparent;
+
+            h4 { color: $link-color; }
+            .pseudo-link { color: $link-hover-color; }
+            i.pulse { transform: scale(1); }
+        }
+    }
+}
+
+/* tab */
+.tab-container {
+    background-color: $tab-bg-color;
+    color: $tab-font-color;
+
+    .tab-content {
+        padding: 3rem;
+    }
+}
