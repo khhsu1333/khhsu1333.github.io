@@ -1,4 +1,6 @@
 /* variables */
+$break-small: 520px;
+
 $font-family: 'Source Sans Pro', 'PingFang TC', 'Heiti TC', 'Microsoft YaHei', sans-serif;
 $bg-color: #eeeeee;
 $footer-color: #31383C;
@@ -29,6 +31,28 @@ hr {
     text-align: center;
     font-size: 0.9rem;
     color: #888888;
+}
+
+/* responsive */
+.nav-large {
+    @media screen and (max-width: $break-small - 1) {
+        display: none;
+    }
+}
+
+.nav-small {
+    @media screen and (min-width: $break-small) {
+        display: none;
+    }
+
+    .icon-stack {
+        margin-bottom: 1rem;
+
+        li.active:after {
+            bottom: -1rem;
+            left: 30%;
+        }
+    }
 }
 
 /* page styles */
