@@ -1,4 +1,16 @@
 [
+	{
+        "name": "Fake Bird",
+        "date": "2020",
+        "image": "img/bird/logo.png",
+        "description": "An Angry Birds-like Android game built with Unity for practice."
+    },
+	{
+        "name": "Hunter RO",
+        "date": "2018",
+        "image": "img/hunter/logo.png",
+        "description": "A HUNTER×HUNTER theme Ragnarok private server built with rAthena for practice, only first two maps are playable."
+    },
     {
         "name": "ISMP Website",
         "date": "May 2016",
@@ -27,13 +39,7 @@
         "name": "Fit Maniac",
         "date": "Aug 2014",
         "image": "img/fitmaniac/logo.png",
-        "description": "A fitness app offering weight training and dieting programs designed by professional fitness trainers.",
-        "media": [
-            {
-                "title": "Google Play",
-                "link": "https://play.google.com/store/apps/details?id=com.fitmaniac.android"
-            }
-        ]
+        "description": "A fitness app offering weight training and dieting programs designed by professional fitness trainers."
     },
     {
         "name": "Portalite",
