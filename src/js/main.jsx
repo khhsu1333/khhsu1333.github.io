@@ -36,12 +36,10 @@ $(function() {
         strings: [
             'Hello!',
             'I am Andy',
-            'I am a Full Stack developer',
             'I am a C++ programmer',
             'I am a Python programmer',
             'I love analyzing data',
             'I love watching movie',
-            'I love playing guitar',
             'Thanks for visiting :)',
             ''
         ],
